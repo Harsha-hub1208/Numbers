@@ -1,8 +1,7 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="Get the highest of the three numbers")
-st.header('User Input Parameters')
+st.header('Get the highest of the three numbers')
 n1=int(input('Enter the first number: '))
 n2=int(input('Enter the second number: '))
 n3=int(input('Enter the third number: '))
