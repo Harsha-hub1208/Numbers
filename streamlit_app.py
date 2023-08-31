@@ -6,7 +6,7 @@ n1=st.number_input('Enter the first number: ')
 n2=st.number_input('Enter the second number: ')
 n3=st.number_input('Enter the third number: ')
 
-st.subheader('Result)
+
 if (n1>n2):
   if (n1>n3):
     st.write(n1)
