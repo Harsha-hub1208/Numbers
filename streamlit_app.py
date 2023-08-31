@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.header('Get the highest of the three numbers')
-n1=int(input('Enter the first number: '))
+st.number_input('Enter the first number: ')
 n2=int(input('Enter the second number: '))
 n3=int(input('Enter the third number: '))
 
