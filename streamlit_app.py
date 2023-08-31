@@ -1,4 +1,4 @@
-!pip install -q streamlit
+
 import streamlit as st
 st.write('''Get the highest of the three numbers''')
 n1=int(input('Enter the first number: '))
